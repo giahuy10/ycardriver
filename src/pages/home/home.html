@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+  
+    <ion-title>Chuyến xe</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ 
+
+		<ion-list>
+	
+    <ion-item *ngFor="let post of resposeData">
+	
+		<div class="job" (click)="seedetail2(post.id)">
+			<div class="header">
+				CX{{post.id}} | {{post.pick_up_time}} | {{post.fee}}
+			</div>
+			<div class="name">
+				{{post.title}}
+			</div>
+			
+		</div>
+	
+    </ion-item>
+  </ion-list>
+
+  <!--<button ion-button color="primary" (click)="logout()">Logout</button>-->
+</ion-content>

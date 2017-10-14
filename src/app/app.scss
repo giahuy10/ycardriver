@@ -1,0 +1,87 @@
+
+@font-face{font-family:r0c0iLinotte;src:url(../assets/fonts/r0c0iLinotte-Bold.eot) format('embedded-opentype');src:url(../assets/fonts/r0c0iLinotte-Bold.woff) format('woff'),url(../assets/fonts/r0c0iLinotte-Bold.ttf) format('truetype'),url(../assets/fonts/r0c0iLinotte-Bold.svg#r0c0iLinotte-Bold) format('svg');font-weight:700;font-style:normal}@font-face{font-family:r0c0iLinotte;src:url(r0c0iLinotte-Regular.eot) format('embedded-opentype');src:url(../assets/fonts/r0c0iLinotte-Regular.woff) format('woff'),url(../assets/fonts/r0c0iLinotte-Regular.ttf) format('truetype'),url(../assets/fonts/r0c0iLinotte-Regular.svg#r0c0iLinotte-Regular) format('svg');font-weight:400;font-style:normal}
+body,h1, h2, button, p,h3, table, tr,td,a, li, input, textarea, div, h4, h5, h6 {
+    font-family: r0c0iLinotte !important;
+}
+div, p,a,td {
+	font-size: 15px;
+}
+button.button-red {
+    background: #EE2437;
+}
+button.button-blue {
+    background: #002d6f;
+}
+.text-input {
+  
+    padding: 5px;
+    margin: 0;
+}
+ion-content, .content-ios {
+   background: #7cd1de;
+   
+    color: #fff;
+}
+ion-item.item {
+    background: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1px;
+}
+.item-inner {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.text-input {
+   
+    width: 100%;
+}	
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background:none !important;
+    background-image: none;
+    color: rgb(0, 0, 0);
+}
+.scroll-content {
+	padding:0 !important
+}
+ion-label {
+   
+    white-space: normal;
+}
+.job {
+    padding-left: 10px;
+}
+.job.job_detail {
+    padding-top: 10px;
+    color: #000;
+}
+.hidden {
+    display: none !important;
+}
+.error {
+    color: red;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+button.buy.button-blue {
+    color: #fff;
+    /* width: 200px; */
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+a.logout-button {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 5px 0;
+    background: #EE2437;
+    padding: 10px 0;
+    color: #fff;
+}
+a.phone-call {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
